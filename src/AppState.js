@@ -5,7 +5,7 @@ import webCrawler from './assets/img/app1.jpg'
 export const AppState = reactive({
   currentYear: new Date().getFullYear(),
   about: {
-    name: "REPLACE ME",
+    name: "{{name}}",
     title: 'SUPER AWESOME ME!!',
     summary: ``
   },

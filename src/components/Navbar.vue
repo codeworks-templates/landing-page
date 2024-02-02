@@ -5,7 +5,7 @@
       <img height="55" src="../assets/img/logo.png" alt="nav Logo" class="drop-shadow"
         :class="scrolled ? '' : ''" />
       <p class="fs-4 m-0 ms-2 text-primary" :class="scrolled ? 'text-dark' : 'text-shadow text-white'">
-        {{ name || 'Something here' }}
+        {{ name }}
       </p>
     </router-link>
     <button @click="mobile = !mobile" class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -55,9 +55,6 @@ export default {
 .navbar{
   transition: background .35s linear;
   background-color: #00000000;
-  &:not(.scrolled){
-  
-  }
 }
 
 .nav-link {
