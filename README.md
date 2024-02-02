@@ -31,6 +31,11 @@ If you want to deploy to a specific branch or another repo you can do so by goin
 
 If you are using a custom domain you will need to update the CNAME file to public folder of this project. This file should contain the domain you want to use. You will also need to configure your DNS settings to point to GitHub pages. [Here is a guide to help you with that](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
+
+## Example Sites
+- [labartisan - bio demo](https://labartisan.net/pixian/bio-demo/#)
+
+
 ## Legal Overview
 
 The content under the CodeWorks®, LLC Organization and all of the individual repos are solely intended for use by CodeWorks Instruction to deliver Educational content to CodeWorks Students.
