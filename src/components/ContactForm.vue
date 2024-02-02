@@ -40,6 +40,7 @@ export default {
       handleSubmit() {
         // For a free Serverless option consider a google form 
         // follow this tutorial https://blog.webjeda.com/google-form-customize/ 
+        // Easy Mode - https://stefano.brilli.me/google-forms-html-exporter/
 
         // Server: You can use an API or send an email using a service like Nodemailer
         // Example: axios.post('/api/contact', { name: this.name, email: this.email, message: this.message })
